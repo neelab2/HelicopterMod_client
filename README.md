@@ -8,17 +8,15 @@ If the mod description does not include a link to my github, I will consider thi
 
 
 
-
-
 Instructions:
 
 1. Download the archive HelicopterMod_client-main.zip
 2. Run Dayz_tools https://store.steampowered.com/app/830640/DayZ_Tools/
 3. Launch and select AddonBuilder in it
 4. In the Addons source directory line, specify HelicopterMod_client-main \ HelicopterMod_client-main \ HelicopterModScripts - the HelicopterModScripts folder
-5. Pack it.
-6. Place it pbo in any of your mods with a link to the source https://github.com/moddayz
-
+5. Uncheck Binarize
+6. Pack it.
+7. Place it pbo in any of your mods with a link to the source https://github.com/moddayz
 
 
 
@@ -28,5 +26,6 @@ Instructions:
 2. Запускаете Dayz_tools https://store.steampowered.com/app/830640/DayZ_Tools/
 3. Запускаете и выбираете в нем AddonBuilder
 4. В строке Addons source directory указываете HelicopterMod_client-main\HelicopterMod_client-main\HelicopterModScripts -  папку  HelicopterModScripts
-5. Запаковываете.
-6. Размещаете pbo в любой свой мод с указанием ссылкой на источник https://github.com/moddayz
+5. Уберите галочку Binarize
+6. Запаковываете.
+7. Размещаете pbo в любой свой мод с указанием ссылкой на источник https://github.com/moddayz
