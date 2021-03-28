@@ -16,7 +16,8 @@ Instructions:
 4. In the Addons source directory line, specify HelicopterMod_client-main \ HelicopterMod_client-main \ HelicopterModScripts - the HelicopterModScripts folder
 5. Uncheck Binarize
 6. Pack it.
-7. Place it pbo in any of your mods with a link to the source https://github.com/moddayz
+7. You should get HelicopterModScripts.pbo
+8. Place it pbo in any of your mods with a link to the source https://github.com/moddayz
 
 
 
@@ -28,4 +29,5 @@ Instructions:
 4. В строке Addons source directory указываете HelicopterMod_client-main\HelicopterMod_client-main\HelicopterModScripts -  папку  HelicopterModScripts
 5. Уберите галочку Binarize
 6. Запаковываете.
-7. Размещаете pbo в любой свой мод с указанием ссылкой на источник https://github.com/moddayz
+7. Должен получиться HelicopterModScripts.pbo
+8. Размещаете pbo в любой свой мод с указанием ссылкой на источник https://github.com/moddayz
