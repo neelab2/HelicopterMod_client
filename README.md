@@ -13,7 +13,7 @@ Instructions:
 1. Download the archive HelicopterMod_client-main.zip
 2. Run Dayz_tools https://store.steampowered.com/app/830640/DayZ_Tools/
 3. Launch and select AddonBuilder in it
-4. In the Addons source directory line, specify HelicopterMod_client-main \ HelicopterMod_client-main \ HelicopterModScripts - the HelicopterModScripts folder
+4. In the Addons source directory line, specify  HelicopterMod_client-main \ HelicopterModScripts - the HelicopterModScripts folder
 5. Uncheck Binarize
 6. Pack it.
 7. You should get HelicopterModScripts.pbo
@@ -26,7 +26,7 @@ Instructions:
 1. Скачиваете архив HelicopterMod_client-main.zip
 2. Запускаете Dayz_tools https://store.steampowered.com/app/830640/DayZ_Tools/
 3. Запускаете и выбираете в нем AddonBuilder
-4. В строке Addons source directory указываете HelicopterMod_client-main\HelicopterMod_client-main\HelicopterModScripts -  папку  HelicopterModScripts
+4. В строке Addons source directory указываете HelicopterMod_client-main \ HelicopterModScripts -  папку  HelicopterModScripts
 5. Уберите галочку Binarize
 6. Запаковываете.
 7. Должен получиться HelicopterModScripts.pbo
