@@ -1,2 +1,2 @@
-﻿prefix=HelicopterModScripts;
-revision=1;
+prefix=HelicopterModScripts;
+revision=1; 
