@@ -424,8 +424,11 @@ class HeliTest_SIB extends Heli_sib_cript
 					{
 						soundObjWarning.SetPosition(GetPosition());
 						m_warning = GetGame().GetSoundScene().Play3D(soundObjWarning, soundObjectBuildWarning); 
-						m_warning.SetPosition(GetPosition());
-						m_warning.SetVolumeRelative(m_warningVolume); 
+						if(m_warning)
+						{
+							m_warning.SetPosition(GetPosition());
+							m_warning.SetVolumeRelative(m_warningVolume); 
+						}
 						m_warningObj = soundObjWarning;						
 					}
 				}
@@ -455,8 +458,11 @@ class HeliTest_SIB extends Heli_sib_cript
 					{
 						soundObjCrash.SetPosition(GetPosition());
 						m_crash = GetGame().GetSoundScene().Play3D(soundObjCrash, soundObjectBuildCrash); 
-						m_crash.SetPosition(GetPosition());
-						m_crash.SetVolumeRelative(m_crashVolume); 
+						if(m_crash)
+						{
+							m_crash.SetPosition(GetPosition());
+							m_crash.SetVolumeRelative(m_crashVolume); 
+						}
 						m_crashObj = soundObjCrash;						
 					}
 				}
@@ -484,10 +490,13 @@ class HeliTest_SIB extends Heli_sib_cript
 				if (soundObjRotor != NULL)
 				{
 					soundObjRotor.SetPosition(GetPosition());
-					m_rotor = GetGame().GetSoundScene().Play3D(soundObjRotor, soundObjectBuildRotor);   
-					m_rotor.SetPosition(GetPosition());
-					m_rotor.Loop(true);
-					m_rotor.SetVolumeRelative(m_rotorVolume); //0.0
+					m_rotor = GetGame().GetSoundScene().Play3D(soundObjRotor, soundObjectBuildRotor);  
+					if(m_rotor)
+					{
+						m_rotor.SetPosition(GetPosition());
+						m_rotor.Loop(true);
+						m_rotor.SetVolumeRelative(m_rotorVolume); //0.0
+					}
 					m_rotorObj = soundObjRotor;			
 				}
 			}
@@ -518,9 +527,12 @@ class HeliTest_SIB extends Heli_sib_cript
 				{
 					soundObjEngine.SetPosition(GetPosition());
 					m_engine = GetGame().GetSoundScene().Play3D(soundObjEngine, soundObjectBuildEngine); 
-					m_engine.SetPosition(GetPosition());
-					m_engine.Loop(true);				
-					m_engine.SetVolumeRelative(m_engineVolume); //0.0
+					if(m_engine)
+					{
+						m_engine.SetPosition(GetPosition());
+						m_engine.Loop(true);				
+						m_engine.SetVolumeRelative(m_engineVolume); //0.0
+					}
 					m_engineObj = soundObjEngine;						
 				}
 			}
@@ -553,7 +565,6 @@ class HeliTest_SIB extends Heli_sib_cript
 					m_DustGround.PlayParticle();	
 					m_DustGround.SetPosition(groundPos);
 					m_DustGround.SetParameter(-1,EmitorParam.SIZE, pos_sound * c_dustEffectCoeff);
-
 				}
 			}
 			else
