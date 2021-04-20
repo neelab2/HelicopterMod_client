@@ -20,7 +20,7 @@ class CfgMods
 		author = "SIBNIC";
 		inputs = "HelicopterModScripts/modded_Inputs.xml";
 		authorID = "";
-		version = "version 1.0";
+		version = "version 3";
 		extra = 0;
 		type = "mod";
 		dependencies[] = {"Game","World","Mission"};

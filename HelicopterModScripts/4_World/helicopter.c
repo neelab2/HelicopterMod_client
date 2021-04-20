@@ -1156,7 +1156,7 @@ class HeliTest_SIB extends Heli_sib_cript
 	}
 	override void EEItemAttached ( EntityAI item, string slot_name ) 
 	{
-		super.EEItemAttached( item, slot_name );
+		//super.EEItemAttached( item, slot_name );
 		falsekolesoz(slot_name);
 	}
 
