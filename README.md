@@ -7,6 +7,16 @@ If the mod description does not include a link to my github, you forbid repackag
 Если в описании мода нет ссылки на мой github, вы запрещаете мод перепаковывать или продаете мой мод, я сочту это нарушением и отправлю DMCA.
 
 
+We have Discord, for those who need help, they can ask in the chat. We also publish news and plans there.
+https://discord.gg/fC2nPqhg9b 
+To access alpha versions, we have a website https://sibnic.info
+
+У нас есть Discord, для тех, кому нужна помощь, они могут спросить в чате. Так же публикуем там новости и планы.
+https://discord.gg/fC2nPqhg9b 
+Для доступа к альфа версиям у нас есть сайт https://sibnic.info
+
+
+
 
 Instructions:
 This is the basic mod, it is needed for the entire mod to function.
@@ -19,6 +29,7 @@ This is the basic mod, it is needed for the entire mod to function.
 7. Pack it.
 8. You should get HelicopterModScripts.pbo
 9. Place it pbo in any of your mods with a link to the source https://github.com/moddayz
+
 
 
 
