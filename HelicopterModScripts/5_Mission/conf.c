@@ -183,7 +183,7 @@ modded class MissionServer
 		
 		distr_std =distr_std+"    \"kill_z\": 0_, example 0-1- deal damage_ to players with damage_ from a blow\n";
 		distr_std =distr_std+"    \"gasoline_costs\": 0.001_, - gasoline_ waste\n";
-		distr_std =distr_std+"    \"gasoline_restart\": 1_,  example 0-1- automatic_ refueling at restart\n";
+		distr_std =distr_std+"    \"gasoline_restart\": 1_,  example 0-1- automatic_ refueling at spawn\n";
 		distr_std =distr_std+"    \"c_camDistance\": 10_,  example 0.1-100 - distance camera\n";
 		distr_std =distr_std+"    \"maxFuel\": 30_,  example 0.1-100 - max_ Fuel_\n";
 		distr_std =distr_std+"    \"m_Crash_dem\": 15_,  example 0.1-100 - maximum_speed at which the sound of Crash\n";
@@ -220,7 +220,7 @@ modded class MissionServer
 		
 		distr_std =distr_std+"    \"kill_z\": 0_, пример 1-0 - наносить урон игрокам при повреждении от удара\n";
 		distr_std =distr_std+"    \"gasoline_costs\": 0.001_, - трата бензина\n";
-		distr_std =distr_std+"    \"gasoline_restart\": 1_,  пример 1-0- автоматическая заправка при рестарте\n";
+		distr_std =distr_std+"    \"gasoline_restart\": 1_,  пример 1-0- автоматическая заправка при спавне\n";
 		distr_std =distr_std+"    \"c_camDistance\": 10_,  пример 0.1-100- дальность камеры\n";
 		distr_std =distr_std+"    \"maxFuel\": 10_  пример 0.1-100- макс бензина\n";
 		distr_std =distr_std+"    \"m_Crash_dem\": 15_  пример 0.1-100- максимальная скорость при котором будет звук урона\n";
