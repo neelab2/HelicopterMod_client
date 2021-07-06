@@ -25,7 +25,7 @@ This is the basic mod, it is needed for the entire mod to function.
 6. Uncheck Binarize
 7. Pack it.
 8. You should get HelicopterModScripts.pbo
-9. Place it pbo in any of your mods with a link to the source https://github.com/moddayz
+9. Place the required text in the description of the mod
 
 
 
@@ -39,4 +39,4 @@ This is the basic mod, it is needed for the entire mod to function.
 5. Уберите галочку Binarize
 6. Запаковываете.
 7. Должен получиться HelicopterModScripts.pbo
-8. Размещаете pbo в любой свой мод с указанием ссылкой на источник https://github.com/moddayz
+8. Размещаете обязательный текст в описании мода
